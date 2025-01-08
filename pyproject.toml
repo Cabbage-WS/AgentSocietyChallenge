@@ -21,7 +21,7 @@ openai = "^1.58.1"
 langchain = "^0.3.13"
 langchain-openai = "^0.2.14"
 langchain-chroma = "^0.1.4"
-torch = "^2.5.1"
+torch = "~2.2.0" # 只允许补丁版本更新（2.2.x）
 
 
 [build-system]
